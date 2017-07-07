@@ -1,19 +1,69 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:th="http://www.thymeleaf.org"
-  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
-  xmlns:form="http://form"
-  xmlns:field="http://field">
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	xmlns:form="http://form" xmlns:field="http://field">
 <meta charset="ISO-8859-1"></meta>
 <head>
-	<head th:replace="common/header :: head"></head>
+<head th:replace="common/header :: head"></head>
 </head>
-	<div th:replace="common/header :: top-navigation">...</div>
+
 <body>
-  <h4>Blogs</h4>
- 
-  
-  	<div th:replace="common/footer :: footer">...</div>
+	<div th:replace="common/header :: top-navigation">...</div>
+	<div class="container">&nbsp;</div>
+
+	<div class="container">
+		<b><font size="4">Headlines</font></b>
+		<marquee>
+			<font size="3">सीरिज जिंकण्यासाठी भारताला हव्या २०६ रन्स </font>,
+			&nbsp;&nbsp;&nbsp; <font size="3">शेतकरी आत्महत्यांवरून
+				सुप्रीम कोर्टानं सरकारला फटकारलं </font> &nbsp;&nbsp;&nbsp; <font size="3">शाळेत
+				मारहाण करणाऱ्या गृह राज्यमंत्र्यांच्या वडिलांवर कारवाई का नाही?</font>
+			&nbsp;&nbsp;&nbsp; <font size="3">वादग्रस्त तृप्ती देसाईंसह
+				पतीविरोधात गुन्हा दाखल </font>
+		</marquee>
+	</div>
+
+	<div class="container" style="width: 70%; height: 30px; border: 1px">
+		<div class="col-lg-8 col-xs-12 col-centered">
+			<font size="6">Your Advertisement here !!!</font>
+		</div>
+	</div>
+
+	<div class="container">
+		<h3>Blogs</h3>
+	</div>
+
+	<div class="container">
+		<h4>आणि आई बाप अमेरिकेला गेले...!</h4>
+		<p>कैलास पुरी, झी मिडिया पिंपरी चिंचवड : अमेरिकेला जायचं अनेकांचं
+			स्वप्न असते ...बऱ्याच जणांचे ते पूर्ण होते तर बऱ्याच जणांचे ते पूर्ण
+			होत नाही.. असे असले तरी अमेरिकेला जाणे आता आधी सारखे 'ग्लॅमरस' राहिले
+			नाही..! मग तुम्हाला प्रश्न पडला असेल आई बाप अमेरिकेला गेले हे हेडिंग
+			कसे काय... ते ही बरोबर च आहे म्हणा... ज्यांनी खूप कर्तृत्व गाजवलं
+			अश्याच व्यक्तींच्या आई वडीलां बद्दल लिहलं जाते... त्या तुलनेने आम्ही
+			छोटे आणि कसले ही कर्तृत्व नसलेलेच... पण तरी ही एकूण सामाजिक दृष्टीने
+			आमचे आई बाप अमेरिकेला जाणे हे विशेष नसले तरी ज्यांच्या प्रचंड मेहनती
+			मुळे किमान पायावर उभा राहू शकलेल्या माझ्या सारख्या मुलाला त्याचे
+			कौतुक आहे म्हणूनच हा प्रपंच....!</p>
+		.....
+
+	</div>
+
+	<div class="container">
+		<h4>...आणि अजितदादांनी संन्यास घेतला...!</h4>
+		<p>कैलास पुरी, झी मिडिया पिंपरी चिंचवड : पिंपरी चिंचवड महानगर
+			पालिकेच्या प्रांगणात पहावे तिकडे कमळेच कमळे दिसत होती.... आणि त्याच
+			कमळातून वाट काढून कधी काळी शहराचे सर्वे सर्वा असलेले राजे अजितदादा
+			योग्याची वस्त्र घालून संन्यास घ्यायला निघाले होते...सारंग रुपी
+			सारथ्याच्या रथात बसून लक्ष्मण आणि महेश या योध्यानी 'अजित' वाटणाऱ्या
+			दादांचा दारुण पराभव केल्याने आता राजकारण करायचे कसे या विवंचनेत अजित
+			पवार आले आणि त्यांनी अखेर योग्याची वस्त्र परिधान करून सरळ संन्यास
+			घ्यायचा इरादा केला आणि ते निघाले सुद्धा...!</p>
+			.....
+	</div>
+	
+	<div th:replace="common/footer :: footer">...</div>
 </body>
 </html>

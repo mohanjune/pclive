@@ -12,9 +12,21 @@
 
 <body>
 	<div th:replace="common/header :: top-navigation">...</div>
-	<h4>Disclaimer</h4>
-
+	<div class="container"></div>
+	
+	<div class="container">
+		Search for <input type="text" name="searchString"/> In
+		<select>
+			<option value="topics">News Topics</option>
+			<option value="local">Local</option>
+			<option value="pune">Pune</option>
+			<option value="maharashtra">Maharashtra</option>
+			<option value="national">National</option>
+		</select>
+		<input type="submit" name="Search"></input>
+		
+	</div>
+	
 	<div th:replace="common/footer :: footer">...</div>
-
 </body>
 </html>

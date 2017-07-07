@@ -6,16 +6,145 @@
   xmlns:form="http://form"
   xmlns:field="http://field">
 <meta charset="ISO-8859-1"></meta>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css}"
+          rel="stylesheet" media="screen" />
+
+<link th:href="@{../css/signin.css}" rel="stylesheet" media="screen" />             
+
+<meta name="viewport" content="width=device-depth. initial-scale=1"></meta>
+
 <head>
 	<head th:replace="common/header :: head"></head>
 </head>
-	<div th:replace="common/header :: top-navigation">...</div>
+
 <body>
-	<p></p>
-	<p></p>
+	<div th:replace="common/header :: top-navigation">...</div>
+	<div  class="container">
+		&nbsp;
+	</div>	
+		
+	<div class="container">
+	  <b><font size="4">Headlines</font></b><marquee><font size="3">सीरिज जिंकण्यासाठी भारताला हव्या २०६ रन्स </font>, 
+	  		&nbsp;&nbsp;&nbsp; <font size="3">शेतकरी आत्महत्यांवरून सुप्रीम कोर्टानं सरकारला फटकारलं </font> &nbsp;&nbsp;&nbsp; 
+	  		<font size="3">शाळेत मारहाण करणाऱ्या गृह राज्यमंत्र्यांच्या वडिलांवर कारवाई का नाही?</font> &nbsp;&nbsp;&nbsp; 
+	  		<font size="3">वादग्रस्त तृप्ती देसाईंसह पतीविरोधात गुन्हा दाखल </font></marquee>
+	</div>
 	
-	<!-- <div th:insert="common/marquee :: copy">...</div> -->
+	<div class="container" style="width:70%;height:30px;border:1px">
+		<div class="col-lg-8 col-xs-12 col-centered">
+			<font size="6">Your Advertisement here !!!</font>
+		</div>
+	</div>
 	
+	<section class="section2">
+		<div class="news-container">
+	</div>
+		
+	</section>
+	
+	<section class="section">
+	<div class="news-container">
+		<div class="news-header">
+			<font size="4">Trending</font>
+		</div>
+	</div>
+
+	<div class="news-container">
+		<div class="news-header">
+		<a href="/news1"><img src="/public/news1.png" width="100" height="100"></img><font size="3">हक्काची घरे वाचविण्यासाठी नागरिकांची शरद पवारांकडे धाव</font></a>
+		</div>
+	</div>
+	
+	<div class="news-container">
+	<p>&nbsp;</p>
+	</div>
+	
+	<div class="news-container">
+		<div class="news-header">
+		<a href="/news2"><img src="/public/news2.png" width="100" height="100"></img><font size="3">साफसफाई कामाच्या निधीसाठी सर्वपक्षीय नगरसेवक एकत्र </font></a>
+		</div>
+	</div>
+
+	<div class="news-container">
+		<p>&nbsp;</p>
+	</div>
+
+	<div class="news-container">
+		<div class="news-header">
+			<font size="3">पुणे महापालिका शाळेतील विद्यार्थ्यांची बायोमेट्रिक हजेरी घेण्याच्या उपमहापौरांच्या सूचना</font>
+		</div>
+	</div>
+
+	<div class="news-container">
+		<p>&nbsp;</p>
+	</div>
+	
+	<div class="news-container">
+		<div class="news-header">
+			<font size="3">देशातील हिंसाचाराविरोधात बोपोडीत मुस्लिम संघटनेचा निषेध मोर्चा</font>
+		</div>
+	</div>
+
+	<div class="news-container">
+		<p>&nbsp;</p>
+	</div>
+		
+	<div class="news-container">
+		<div class="news-header">
+			<a href="/news1"><font size="3">महापालिकेतर्फे अण्णाभाऊ साठे यांची जयंती साजरी करण्यात येणार - महापौर काळजे</font></a>
+		</div>
+	</div>
+	
+	</section>
+	
+  	<aside class="aside">
+		<div  class="news-container">
+			&nbsp;
+		</div>	
+		<div  class="news-container">
+			<h6>खाऊअड्डा</h6>
+		</div>	
+  		<div class="news-container">
+  			<div class="col-lg-8">
+  				<p>खाऊअड्डा</p>
+				<p>
+					भवानी पेठेतील 50 वर्षे जुनी वटेश्वर भुवनची 
+					पुणेरी मिसळ आता कोथरुडमध्येही
+				</p>
+  			</div>
+  		</div>
+  		<div class="news-container">
+  		-----------------------
+  		</div>
+		<div class="news-container">
+  			<div class="col-lg-8">
+  				<h6>Most viewed</h6>
+  			</div>
+  		</div>
+  		<div class="news-container">
+  			<div class="col-lg-8">
+  				<p>पीएमपीएमएलला खासदार अनिल शिरोळे
+  				 यांच्याकडून सात कोटी रुपये
+				</p>
+  			</div>
+  		</div>
+		<div class="news-container">
+  			<div class="col-lg-8">
+  				<p>आधारकार्ड धारकांसाठी एलआयसीची आधार शिला व
+  				 आधार स्तंभ योजना सुरू
+				</p>
+  			</div>
+  		</div>
+		<div class="news-container">
+  			<div class="col-lg-8">
+  				<p>खराबवाडी येथे आढळला अज्ञात महिलेचा मृतदेह, 
+  				पोलिसांना खुनाचा संशय
+				</p>
+  			</div>
+  		</div>		  		
+  	</aside>
   	<div th:replace="common/footer :: footer">...</div>
 </body>
 </html>

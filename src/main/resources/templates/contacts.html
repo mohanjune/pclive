@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
-<head>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	xmlns:form="http://form" xmlns:field="http://field">
 <meta charset="ISO-8859-1"></meta>
-<title>Insert title here</title>
+
+<head>
+<head th:replace="common/header :: head"></head>
 </head>
+
 <body>
+	<div th:replace="common/header :: top-navigation">...</div>
 	<h4>Contact Us</h4>
 	
 </body>

@@ -71,4 +71,20 @@ public class CommandController {
 	 public String editorial() {
 		 return "editorial";
 	 }
+	 
+	 @RequestMapping("/search")
+	 public String search() {
+		 return "search";
+	 }
+	 
+	 @RequestMapping("/news1")
+	 public String news1() {
+		 return "news1";
+	 }
+	 
+	 @RequestMapping("/news2")
+	 public String news2() {
+		 return "news2";
+	 }
+
 }

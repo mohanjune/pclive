@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	xmlns:form="http://form" xmlns:field="http://field">
+<meta charset="ISO-8859-1"></meta>
+
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+	th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css}"
+	rel="stylesheet" media="screen" />
+
+<meta name="viewport" content="width=device-depth. initial-scale=1"></meta>
+
+<head>
+<head th:replace="common/header :: head"></head>
+</head>
+
+<body>
+	<div th:replace="common/header :: top-navigation">...</div>
+	<div class="container">&nbsp;</div>
+	<div class="container">
+		<b><font size="6">Headlines</font></b>
+		<marquee>
+			<font size="6">सीरिज जिंकण्यासाठी भारताला हव्या २०६ रन्स </font>,
+			&nbsp;&nbsp;&nbsp; <font size="6">शेतकरी आत्महत्यांवरून
+				सुप्रीम कोर्टानं सरकारला फटकारलं </font> &nbsp;&nbsp;&nbsp; <font size="6">शाळेत
+				मारहाण करणाऱ्या गृह राज्यमंत्र्यांच्या वडिलांवर कारवाई का नाही?</font>
+			&nbsp;&nbsp;&nbsp; <font size="6">वादग्रस्त तृप्ती देसाईंसह
+				पतीविरोधात गुन्हा दाखल </font>
+		</marquee>
+	</div>
+
+	<div class="container" style="width: 75%; height: 30px;">
+		<div class="col-lg-8 col-xs-12 col-centered">
+			<font size="6">Your Advertisement here !!!</font>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<img src="news2.png"></img>
+		<h3>साफसफाई कामाच्या निधीसाठी सर्वपक्षीय नगरसेवक एकत्र</h3>
+		<p>पुणे महापालिका परिसरातील धनकवडी-सहकारनगर क्षेत्रीय
+			कार्यालयांतर्गत येणार्‍या तीनही प्रभागातील सर्वपक्षीय नगरसेवकांनी
+			एकत्र येत साफसफाईच्या कामासाठी क्षेत्रीय कार्यालयाला 3 कोटी रुपयांचा
+			निधी उपलब्ध करून द्यावा, असा ठराव प्रभाग समितीत मंजूर करून सर्वसाधारण
+			सभेकडे पाठविला आहे.</p>
+
+		<p>सार्वजनिक जागेच्या स्वच्छतेसाठी आणि विशेषतः झाडलोट कामासाठी
+			महापालिकेच्या वतीने अंदाजपत्रकात क्षेत्रीय कार्यालयनिहाय तरतूद केली
+			जाते. क्षेत्रीय कार्यालयांवर या तरतुदीच्या प्रभागनिहाय वाटपाची
+			जबाबदारी असते. यंदाच्या अंदाजपत्रकात धनकवडी-सहकारनगर क्षेत्रीय
+			कार्यालयांतर्गत येणार्‍या प्रभाग क्रमांक 35, 39 आणि 40 मधील झाडलोट
+			कामासाठीची तरतूद अपुरी असल्याने प्रभागांमधील सर्वपक्षीय नगरसेवक
+			एकवटले.</p>
+
+		<p>प्रभागाच्या झाडलोट कामाच्या हद्दीचा विचार करता अंदाजपत्रकातील 3
+			कोटींची तरतूद उपलब्ध करून दिल्यास स्वच्छता ठेवणे सोयीचे होईल, असा
+			प्रस्ताव प्रभाग समिती अध्यक्षा अश्‍विनी भागवत यांच्या अध्यक्षतेखाली
+			28 जूनला झालेल्या समितीच्या बैठकीत ठेवण्यात आला. राष्ट्रवादी
+			काँग्रेसचे नगरसेवक विशाल तांबे, बाळासाहेब धनकवडे, अश्‍विनी कदम,
+			युवराज बेलदरे, स्मिता कोंढरे, अमृता बाबर, भाजपचे नगरसेवक महेश वाबळे,
+			साईदिशा माने, वर्षा तापकीर आणि मनसेचे नगरसेवक वसंत मोरे यांनी
+			मांडलेला हा प्रस्ताव मंजूर करून मुख्य सभेपुढे पाठविला आहे.</p>
+	</div>
+
+	<div th:replace="common/footer :: footer">...</div>
+</body>
+</html>

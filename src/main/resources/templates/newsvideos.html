@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	xmlns:form="http://form" xmlns:field="http://field">
+<meta charset="ISO-8859-1"></meta>
+<head>
+	<link th:href="@{../css/videos.css}" rel="stylesheet" media="screen" /> 
+	<head th:replace="common/header :: head"></head>
+</head>
+<div th:replace="common/header :: top-navigation">...</div>
+<body>
+
+	<div align="center">
+		<div class="video-container">
+			<iframe width="560" height="315" cc_lang_pref="mr" cc_load_policy="1"
+				src="https://www.youtube.com/embed/YPJGkuWKsJs" allowfullscreen="allowfullscreen"></iframe>
+		</div>
+
+		<div class="video-container">
+			<iframe width="560" height="315" cc_lang_pref="mr" cc_load_policy="1"
+				src="https://www.youtube.com/embed/k-hRM0tX54M" allowfullscreen="allowfullscreen"></iframe>
+		</div>
+
+		<div class="video-container">
+
+			<iframe width="560" height="315" cc_lang_pref="mr" cc_load_policy="1"
+				src="https://www.youtube.com/embed/q42wubmIXCk" allowfullscreen="allowfullscreen"></iframe>
+		</div>
+
+		<div class="video-container">
+			<iframe width="560" height="315" cc_lang_pref="mr" cc_load_policy="1"
+				src="https://www.youtube.com/embed/j8yj95yp6BE" frameborder="0"
+				allowfullscreen="allowfullscreen"></iframe>
+		</div>
+
+	</div>
+
+	<div th:replace="common/footer :: footer">...</div>
+</body>
+</html>
